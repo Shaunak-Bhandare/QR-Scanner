@@ -69,6 +69,7 @@ if selected_page == "Validation":
                 switch_page("about")
             else:
                 st.info("No QR codes found in the image.")
+
         #st.experimental_set_query_params(page="secure_content")
 
 # Secure content page
