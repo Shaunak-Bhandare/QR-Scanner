@@ -59,7 +59,6 @@ st.session_state.aanjs =LOGGED_IN
 
 if LOGGED_IN == True:
     
-    # HERE HOME APP COMES
     st.sidebar.title("Navigation")
     selected_page = st.sidebar.selectbox("", ["Validation", "Secure Content"])
     
